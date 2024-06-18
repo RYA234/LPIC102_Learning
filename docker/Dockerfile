@@ -11,5 +11,7 @@ rm -f /lib/systemd/system/basic.target.wants/*;\
 rm -f /lib/systemd/system/anaconda.target.wants/*;
 RUN  yum install -y  net-tools
 
+RUN  yum install -y  source
+
 VOLUME [ "/sys/fs/cgroup" ]
 CMD ["/usr/sbin/init"]
