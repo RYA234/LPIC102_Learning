@@ -9,9 +9,14 @@ rm -f /lib/systemd/system/sockets.target.wants/*udev*; \
 rm -f /lib/systemd/system/sockets.target.wants/*initctl*; \
 rm -f /lib/systemd/system/basic.target.wants/*;\
 rm -f /lib/systemd/system/anaconda.target.wants/*;
+RUN yum update -y
 RUN  yum install -y  net-tools
+RUN yum install -y systemd
 
-RUN  yum install -y  source
+# RUN  yum install -y  source
+RUN  yum install -y  zsh
 
-VOLUME [ "/sys/fs/cgroup" ]
-CMD ["/usr/sbin/init"]
+
+# デフォルトだとrootの実行権限がないので、
+RUN groupadd docker -g 1000
+RUN usermod root -G 1000

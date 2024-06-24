@@ -2,8 +2,10 @@ services:
   centos_main:
     container_name: centos_main
     build: ./docker
+    command: /sbin/init
     volumes:
       - ./script:/script
+    privileged: true
     networks:
       test_network:
         ipv4_address: 172.30.0.2
@@ -11,8 +13,6 @@ services:
   centos_sub:
     container_name: centos_sub
     build: ./docker
-    # ports:
-    #   - "5432:5432"
     networks:
       test_network:
         ipv4_address: 172.30.0.4
