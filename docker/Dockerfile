@@ -12,10 +12,14 @@ rm -f /lib/systemd/system/anaconda.target.wants/*;
 RUN yum update -y
 RUN  yum install -y  net-tools
 RUN yum install -y systemd
-
+RUN  yum install -y  rsyslog
 # RUN  yum install -y  source
 RUN  yum install -y  zsh
-
+RUN yum install -y postfix
+RUN yum install -y mailx
+RUN yum install -y traceroute
+RUN yum install -y iproute
+RUN yum install -y  xinetd
 
 # デフォルトだとrootの実行権限がないので、
 RUN groupadd docker -g 1000

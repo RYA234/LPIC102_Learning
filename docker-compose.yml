@@ -9,10 +9,11 @@ services:
     networks:
       test_network:
         ipv4_address: 172.30.0.2
-
   centos_sub:
     container_name: centos_sub
     build: ./docker
+    command: /sbin/init
+    privileged: true
     networks:
       test_network:
         ipv4_address: 172.30.0.4
