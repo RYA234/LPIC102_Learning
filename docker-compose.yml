@@ -6,6 +6,8 @@ services:
     volumes:
       - ./script:/script
     privileged: true
+    ports:
+    - 3000:3000
     networks:
       test_network:
         ipv4_address: 172.30.0.2
@@ -14,6 +16,10 @@ services:
     build: ./docker
     command: /sbin/init
     privileged: true
+    volumes:
+      - ./script:/script    
+    ports:
+      - 5000:5000
     networks:
       test_network:
         ipv4_address: 172.30.0.4

@@ -1,0 +1,231 @@
+?????????????????????????????????????
+Rocky Linux 8 - AppS     [===                 ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS     [===                 ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppStream                       8.7 kB/s | 4.8 kB     00:00    
+Rocky Linux 8 - AppS     [   ===              ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS 22% [====-               ] 8.0 MB/s | 2.4 MB     00:01 ETA
+Rocky Linux 8 - AppS 50% [==========          ] 8.1 MB/s | 5.4 MB     00:00 ETA
+Rocky Linux 8 - AppS 80% [================    ] 8.3 MB/s | 8.6 MB     00:00 ETA
+Rocky Linux 8 - AppStream                       6.9 MB/s |  11 MB     00:01    
+Rocky Linux 8 - Base     [      ===           ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - BaseOS                          9.8 kB/s | 4.3 kB     00:00    
+Rocky Linux 8 - Base     [         ===        ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base 43% [========-           ] 7.2 MB/s | 2.2 MB     00:00 ETA
+Rocky Linux 8 - BaseOS                          4.8 MB/s | 5.0 MB     00:01    
+Rocky Linux 8 - Extr     [            ===     ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extr  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extras                          5.9 kB/s | 3.1 kB     00:00    
+Rocky Linux 8 - Extr     [               ===  ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extr  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extras                           21 kB/s |  14 kB     00:00    
+Dependencies resolved.
+================================================================================
+ Package               Architecture  Version                Repository     Size
+================================================================================
+Installing:
+ [1m[32mopenssh-server       (B[m x86_64        8.0p1-24.el8           baseos        494 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 494 k
+Installed size: 1.0 M
+Downloading Packages:
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+openssh-server-8.0p1  0% [                    ] ---  B/s |   0  B     --:-- ETA
+openssh-server-8.0p1-24.el8.x86_64.rpm          4.3 MB/s | 494 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           931 kB/s | 494 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+
+  Preparing        :                                                        1/1 
+
+  Running scriptlet: openssh-server-8.0p1-24.el8.x86_64                     1/1 
+warning: Unable to get systemd shutdown inhibition lock: Unit systemd-logind.service is masked.
+
+
+  Installing       : openssh-server-8.0p1-24.e [                          ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=                         ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==                        ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===                       ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [====                      ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=====                     ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [======                    ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=======                   ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========                  ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=========                 ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==========                ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===========               ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [============              ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=============             ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==============            ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===============           ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [================          ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=================         ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==================        ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===================       ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [====================      ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=====================     ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [======================    ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=======================   ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========================  ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========================= ] 1/1
+  Installing       : openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+  Running scriptlet: openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+  Verifying        : openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+Installed:
+  openssh-server-8.0p1-24.el8.x86_64                                            
+
+Complete!
+--------1.openssh-server?????????????????????????????---------
+openssh-server.x86_64                8.0p1-24.el8                     @baseos   
+?????????????????????????????????????
+????????shd?????????????
+[?1h=
+[0;1;32m??[0m sshd.service - OpenSSH server daemon[m
+   Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; vendor preset[m[7m>[27m
+   Active: [0;1;32mactive (running)[0m since Sat 2024-07-06 07:44:51 UTC; 6ms ago[m
+     Docs: man:sshd(8)[m
+           man:sshd_config(5)[m
+ Main PID: 126 (sshd)[m
+    Tasks: 1 (limit: 50376)[m
+   Memory: 1.2M[m
+   CGroup: /docker/50e3d49a9594d3bd8bcef0901f797c38135b2ef52c21fb0a7f58c47b3b33[m[7m>[27m
+           ???126 /usr/sbin/sshd -D -oCiphers=aes256-gcm@openssh.com,chacha20-po[m[7m>[27m
+[m
+Jul 06 07:44:51 50e3d49a9594 systemd[1]: Starting OpenSSH server daemon...[m
+Jul 06 07:44:51 50e3d49a9594 sshd[126]: Server listening on 0.0.0.0 port 22.[m
+Jul 06 07:44:51 50e3d49a9594 sshd[126]: Server listening on :: port 22.[m
+Jul 06 07:44:51 50e3d49a9594 systemd[1]: Started OpenSSH server daemon.[m
+[7mlines 1-15/15 (END)[27m[K
+[K [KESCESC[K[[[KAA
+[K[7mlines 1-15/15 (END)[27m[K
+[K [KESCESC[K[[[KBB
+[K[7mlines 1-15/15 (END)[27m[K
+[K [KESCESC[K[[[KBB
+[K[7mlines 1-15/15 (END)[27m[K
+[K[?1l>
+?????????????????????????????????????
+Rocky Linux 8 - AppS     [===                 ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS     [===                 ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppStream                       8.4 kB/s | 4.8 kB     00:00    
+Rocky Linux 8 - AppS     [   ===              ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - AppS  6% [=                   ] 2.0 MB/s | 631 kB     00:04 ETA
+Rocky Linux 8 - AppS 30% [======              ] 2.4 MB/s | 3.3 MB     00:03 ETA
+Rocky Linux 8 - AppS 51% [==========          ] 2.7 MB/s | 5.5 MB     00:01 ETA
+Rocky Linux 8 - AppS 61% [============        ] 2.8 MB/s | 6.6 MB     00:01 ETA
+Rocky Linux 8 - AppS 71% [==============      ] 2.8 MB/s | 7.6 MB     00:01 ETA
+Rocky Linux 8 - AppS 86% [=================   ] 3.0 MB/s | 9.2 MB     00:00 ETA
+Rocky Linux 8 - AppStream                       4.3 MB/s |  11 MB     00:02    
+Rocky Linux 8 - Base     [      ===           ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - BaseOS                          9.9 kB/s | 4.3 kB     00:00    
+Rocky Linux 8 - Base     [         ===        ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base 48% [=========-          ] 8.0 MB/s | 2.4 MB     00:00 ETA
+Rocky Linux 8 - Base 90% [==================  ] 8.0 MB/s | 4.5 MB     00:00 ETA
+Rocky Linux 8 - BaseOS                          4.5 MB/s | 5.0 MB     00:01    
+Rocky Linux 8 - Extr     [            ===     ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extr  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extras                          6.0 kB/s | 3.1 kB     00:00    
+Rocky Linux 8 - Extr     [               ===  ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extr  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Extras                           24 kB/s |  14 kB     00:00    
+Dependencies resolved.
+================================================================================
+ Package               Architecture  Version                Repository     Size
+================================================================================
+Installing:
+ [1m[32mopenssh-server       (B[m x86_64        8.0p1-24.el8           baseos        494 k
+
+Transaction Summary
+================================================================================
+Install  1 Package
+
+Total download size: 494 k
+Installed size: 1.0 M
+Downloading Packages:
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+Rocky Linux 8 - Base  0% [                    ] ---  B/s |   0  B     --:-- ETA
+openssh-server-8.0p1  0% [                    ] ---  B/s |   0  B     --:-- ETA
+openssh-server-8.0p1-24.el8.x86_64.rpm          2.4 MB/s | 494 kB     00:00    
+--------------------------------------------------------------------------------
+Total                                           799 kB/s | 494 kB     00:00     
+Running transaction check
+Transaction check succeeded.
+Running transaction test
+Transaction test succeeded.
+Running transaction
+
+  Preparing        :                                                        1/1 
+
+  Running scriptlet: openssh-server-8.0p1-24.el8.x86_64                     1/1 
+warning: Unable to get systemd shutdown inhibition lock: Unit systemd-logind.service is masked.
+
+
+  Installing       : openssh-server-8.0p1-24.e [                          ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=                         ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==                        ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===                       ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [====                      ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=====                     ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [======                    ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=======                   ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========                  ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=========                 ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==========                ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===========               ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [============              ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=============             ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==============            ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===============           ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [================          ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=================         ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [==================        ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [===================       ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [====================      ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=====================     ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [======================    ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [=======================   ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========================  ] 1/1
+  Installing       : openssh-server-8.0p1-24.e [========================= ] 1/1
+  Installing       : openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+  Running scriptlet: openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+  Verifying        : openssh-server-8.0p1-24.el8.x86_64                     1/1 
+
+Installed:
+  openssh-server-8.0p1-24.el8.x86_64                                            
+
+Complete!
+--------1.openssh-server?????????????????????????????---------
+openssh-server.x86_64                8.0p1-24.el8                     @baseos   
+?????????????????????????????????????
+????????shd?????????????
+??sshd.service - OpenSSH server daemon
+   Loaded: loaded (/usr/lib/systemd/system/sshd.service; enabled; vendor preset: enabled)
+   CGroup: /docker/973c5443a04c13a9841ba957d0ac678a747d2c4fc0ad31f51265657738e7876a/system.slice/sshd.service
+   Active: active (running) since Sat 2024-07-06 08:02:08 UTC; 13ms ago
+????????shd?????????????
+grep: yes: No such file or directory
+#PasswordAuthentication yes
+PasswordAuthentication yes
+# PasswordAuthentication.  Depending on your PAM configuration,
+# PAM authentication, then enable this but set PasswordAuthentication
+???????????????????????????
+testuser:x:1000:1001::/home/testuser:/bin/bash
+???????????????????????????
